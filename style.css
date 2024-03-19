@@ -1,0 +1,102 @@
+/*
+COLOR PALETTE
+  back ground lightgreen: rgb(210, 239, 232); 
+  green: rgb(95, 198, 173); 
+  yellow: rgb(217, 255, 102);
+  blue: rgb(52, 75, 201);
+*/
+
+/* CSS RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: rgb(210, 239, 232);
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.panel {
+  border-radius: 20px;
+  background-color: rgb(95, 198, 173);
+  margin-top: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+input {
+  font-size: 16px;
+  padding: 16px 10px;
+  border: none;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: rgb(217, 255, 102);
+  color: black;
+}
+
+.add-task {
+  gap: 8px;
+}
+
+.no-tasks-msg {
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.task-list {
+  list-style-type: none;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.task-check {
+  background-color: rgb(217, 255, 102);
+  padding: 16px;
+  border-radius: 16px 0 0 16px;
+  cursor: pointer;
+}
+
+.task-check:hover {
+  background-color: red;
+  color: white !important;
+}
+
+.task-content {
+  padding: 16px;
+}
