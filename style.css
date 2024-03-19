@@ -1,9 +1,9 @@
 /*
 COLOR PALETTE
-  back ground lightgreen: rgb(210, 239, 232); 
-  green: rgb(95, 198, 173); 
-  yellow: rgb(217, 255, 102);
-  blue: rgb(52, 75, 201);
+  background : #bae8e8;
+  yellow panels : #ffd803;
+
+
 */
 
 /* CSS RESET  */
@@ -15,7 +15,7 @@ COLOR PALETTE
 
 html,
 body {
-  background-color: rgb(210, 239, 232);
+  background-color: white;
 }
 
 .container {
@@ -26,11 +26,11 @@ body {
 
 .panel {
   border-radius: 20px;
-  background-color: rgb(95, 198, 173);
+  background-color: yellowgreen;
   margin-top: 16px;
   padding: 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
 }
 
@@ -53,8 +53,8 @@ button {
   padding: 8px 16px;
   border: none;
   border-radius: 16px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 30px;
 }
 
@@ -80,9 +80,10 @@ button:hover {
 .task-item {
   display: flex;
   align-items: center;
-  background-color: white;
   border-radius: 16px;
   margin-bottom: 16px;
+  background-color: yellowgreen;
+  color: white;
 }
 
 .task-check {
@@ -93,8 +94,7 @@ button:hover {
 }
 
 .task-check:hover {
-  background-color: red;
-  color: white !important;
+  background-color: #ffd803;
 }
 
 .task-content {
